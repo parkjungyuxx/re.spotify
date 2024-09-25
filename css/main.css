@@ -1,0 +1,246 @@
+header {
+    background-color: black;
+}
+
+:root {
+    --background-base: #121212;
+    --background-highlight: #1f1f1f;
+    --background-press: #000;
+    --background-elevated-base: #1f1f1f;
+    --background-elevated-highlight: #2a2a2a;
+    --background-elevated-press: #191919;
+    --background-tinted-base: hsla(0, 0%, 100%, .1);
+    --background-tinted-highlight: hsla(0, 0%, 100%, .14);
+    --background-tinted-press: hsla(0, 0%, 100%, .05);
+    --text-base: #fff;
+    --text-subdued: #b3b3b3;
+    --text-bright-accent: #1ed760;
+    --text-negative: #f3727f;
+    --text-warning: #ffa42b;
+    --text-positive: #1ed760;
+    --text-announcement: #4cb3ff;
+    --essential-base: #fff;
+    --essential-subdued: #7c7c7c;
+    --essential-bright-accent: #1ed760;
+    --essential-negative: #ed2c3f;
+    --essential-warning: #ffa42b;
+    --essential-positive: #1ed760;
+    --essential-announcement: #4cb3ff;
+    --decorative-base: #fff;
+    --decorative-subdued: #292929;
+}
+
+:root {
+    --encore-text-size-smaller-2: 0.75rem;
+        --encore-text-size-smaller: 0.875rem;
+        --encore-text-size-base: 1rem;
+        --encore-text-size-larger: 1.5rem;
+        --encore-text-size-larger-2: 2rem;
+        --encore-text-size-larger-3: 3rem;
+        --encore-text-size-larger-4: 4rem;
+        --encore-text-size-larger-5: 6rem;
+        --encore-border-width-hairline: 1px;
+        --encore-border-width-thin: 2px;
+        --encore-border-width-thick: 4px;
+        --encore-border-width-thicker: 8px;
+        --encore-border-width-focus: 3px;
+        --encore-graphic-size-decorative-smaller-2: 12px;
+        --encore-graphic-size-decorative-smaller: 16px;
+        --encore-graphic-size-decorative-base: 24px;
+        --encore-graphic-size-decorative-larger: 32px;
+        --encore-graphic-size-decorative-larger-2: 40px;
+        --encore-graphic-size-decorative-larger-3: 48px;
+        --encore-graphic-size-decorative-larger-4: 64px;
+        --encore-graphic-size-decorative-larger-5: 88px;
+        --encore-graphic-size-informative-smaller-2: 0.75rem;
+        --encore-graphic-size-informative-smaller: 1rem;
+        --encore-graphic-size-informative-base: 1.5rem;
+        --encore-graphic-size-informative-larger: 2rem;
+        --encore-graphic-size-informative-larger-2: 2.5rem;
+        --encore-graphic-size-informative-larger-3: 3rem;
+        --encore-graphic-size-informative-larger-4: 4rem;
+        --encore-graphic-size-informative-larger-5: 5.5rem;
+        --encore-spacing-tighter-5: 2px;
+        --encore-spacing-tighter-4: 4px;
+        --encore-spacing-tighter-3: 6px;
+        --encore-spacing-tighter-2: 8px;
+        --encore-spacing-tighter: 12px;
+        --encore-spacing-base: 16px;
+        --encore-spacing-looser: 24px;
+        --encore-spacing-looser-2: 32px;
+        --encore-spacing-looser-3: 48px;
+        --encore-spacing-looser-4: 64px;
+        --encore-spacing-looser-5: 96px;
+        --encore-spacing-looser-6: 128px;
+        --encore-control-size-smaller: 32px;
+        --encore-control-size-base: 48px;
+        --encore-control-size-larger: 56px;
+        --encore-layout-margin-tighter: 24px;
+        --encore-layout-margin-base: 32px;
+        --encore-layout-margin-looser: 64px;
+        --encore-corner-radius-smaller: 2px;
+        --encore-corner-radius-base: 4px;
+        --encore-corner-radius-larger: 6px;
+        --encore-corner-radius-larger-2: 8px;
+        --encore-corner-radius-larger-3: 16px;
+}
+
+.top-menu-spotify-logo-icon {
+    font-size: 29px;
+    margin-top: -2px;
+    margin-left: 5px;
+    color: white;
+}
+
+.top-menu-middle-button-home-img {
+    color: white;
+    width: 24px;
+}
+
+.top-menu-middle-button-home {
+    padding: 8px;
+    margin: 0 0 0 8px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.top-menu-input-search {
+    width: 440px;
+    padding: 12px 64px 12px 48px;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    border-radius: 500px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    border: transparent;
+}
+
+.top-menu-input-search-button-explore {
+    border-left: 1px solid #656565;
+    padding-left: 10px;
+}
+
+.top-menu-user-actions-button-signin {
+    color: #B3B3B3;
+    padding: 8px 32px 8px 8px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.snb {
+    background-color: var(--background-base);
+    border-radius: 8px;
+    width: 22%;
+    height: calc(100vh - 48px - 66px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 8px 8px 8px 8px;
+    box-sizing: border-box;
+}
+
+.snb-top-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 16px 8px;
+}
+
+.snb-top-mylibrary-button {
+    color: #B3B3B3;
+    font-size: 16px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #B3B3B3;
+    font-size: 11px;
+    margin-right: 12px;
+  }
+
+.background-color-lightgray {
+    background-color: #1f1f1f;
+}
+
+.snb-top-mylibrary-button-icon {
+    color: #B3b3b3;
+}
+
+
+.snb-bottom {
+    bottom: 0;
+    margin: 0 0 32px;
+    padding: 0 24px;
+}
+
+.snb-playlist-container {
+    margin: 16px 8px;
+    padding: 16px 20px;
+    line-height: 1.6;
+    border-radius: 8px;
+}
+
+.snb-podcast-container {
+    margin: 8px 8px;
+    padding: 16px 20px;
+    line-height: 1.6;
+    border-radius: 8px;
+}
+
+.snb-bottom-button-language {
+    border: 1px solid #b3b3b3;
+    border-radius: 9999px;
+    color: #FFFFFF;
+    padding: 3px 15px 3px;
+    font-size: 14px;
+}
+
+.icon-globe {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.main-contents-container {
+    width: 78%;
+    background-color: var(--background-base);
+    height: calc(100vh - 48px - 66px);
+    overflow-y: auto;
+    scrollbar-width: none;
+    padding: 12px 24px;
+    border-radius: 8px;    
+}
+
+.main-contents-popular-artist-container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 16px;
+}
+
+.main-contents-popular-artist-card {
+text-align: start;
+}
+
+.artist-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.ad-banner-container {
+    width: 100%;
+    height: 66px;
+    background: linear-gradient(to right, rgb(189, 70, 182), #4cb3ff);
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 24px 7px 15px;
+    position: fixed;
+    bottom: 0;
+    margin: 8px;
+
+}
